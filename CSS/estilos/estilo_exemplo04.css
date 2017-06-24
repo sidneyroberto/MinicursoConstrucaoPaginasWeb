@@ -1,0 +1,20 @@
+a:link {
+    color: red; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgreen;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+#g1:hover {
+    font-size: 100%;
+}
+

@@ -1,0 +1,10 @@
+div {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    background-color: #E4F1FE;
+    color: #446CB3;
+    padding: 20px;
+}
+
+span {
+    color: red;
+}

@@ -1,0 +1,51 @@
+.conteiner {
+    width: 100%;
+    border: 1px solid gray;
+
+}
+
+header {
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-shadow: 2px 2px #1BA39C;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #1BA39C;
+    clear: left;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1BA39C;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+ul li {
+    float: left;
+}
+
+ul li:hover {
+    background-color: #1BBC9B;
+}
+   
+ul a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+article {
+    padding: 20px;
+    font-family: 'Lucida Console', Monaco, monospace;
+}

@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none; /* Lista não estilizada */
+    margin: 0; /* Sem margem */
+    padding: 0; /* Sem espaço entre o conteúdo e a margem */
+    overflow: hidden; /* Evista que a lista fique invisível */
+    background-color: #81CFE0;
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+
+li {
+    float: left;  /*Faz com que os itens fiquem alinhados à esquerda e assim apareçam horizontalmente  */
+}
+
+li a {
+    display: block; /* Faz com que os links apareçam como um bloco */
+    color: white; /* Texto do link com a cor branca */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 16px; /* Espaço entre o texto do link e as margens */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+li a:hover {
+    background-color: #52B3D9;
+}
